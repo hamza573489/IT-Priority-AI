@@ -16,9 +16,9 @@ model = joblib.load('priority_model.pkl')
 tfidf = joblib.load('tfidf_vectorizer.pkl')
 
 # --- 2. THE FRONTEND DESIGN ---
-st.set_page_config(page_title="IT Priority AI", page_icon="??")
+st.set_page_config(page_title="IT Priority AI", page_icon="")
 
-st.title("?? IT Support Priority Portal")
+st.title("IT Support Priority Portal")
 st.write("Enter your issue below to let the AI determine the priority.")
 
 # User types here
