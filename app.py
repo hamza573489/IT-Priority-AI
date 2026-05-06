@@ -15,7 +15,7 @@ tfidf = joblib.load('tfidf_vectorizer.pkl')
 
 # --- 3. FRONTEND DESIGN ---
 st.set_page_config(page_title="IT Priority AI Portal", page_icon="🎫")
-st.title("🎫 IT Support Priority Portal")
+st.title("IT Support Priority Portal")
 st.markdown("Enter your issue below. The system uses a mix of AI and business logic to decide priority.")
 
 user_input = st.text_area("Ticket Description:", placeholder="Describe the issue here...")
